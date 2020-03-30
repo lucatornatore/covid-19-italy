@@ -1,11 +1,11 @@
-# Qualche considerazione sui dati dell'epidemia di COVID-19 in Italia ( 27-3-2020 )$^{(*)}$
+# Qualche considerazione sui dati dell'epidemia di COVID-19 in Italia ( dal 27-3-2020 )
 
 Alla data odierna (27/3/2020) **e solo da qualche giorno, al [contrario delle 3 settimane precedenti](#Perché-NON-usare-una-curva-logistica-in-modo-superficiale),** penso che dai dati si possa essere _cautamente non pessimisti_ e si possano usare i fit delle curve per formulare cautamente delle ipotesi ragionevoli sul futuro. Se non ci sono esplosioni o eventi al momento inaspettati.
 
 
 In sintesi:
 
-- <font color="green">**Molto probabilmente abbiamo raggiunto "il picco".**</font>  [Qui](#blabla) ci sono i grafici e i ragionamenti che suggeriscono questa possibilità come non improbabile.
+- <font color="green">**Molto probabilmente abbiamo raggiunto "il picco".**</font>  [Qui](#Picco-non-picco-e-l-andamento-dell-epidemia) ci sono i grafici e i ragionamenti che suggeriscono questa possibilità come non improbabile.
   Ma è importante capire che non esiste l'Ora X: il "picco" non dura 1 giorno ma si "spalma" su più giorni con fluttuazioni.
   
   Per capire cos'è "il picco": [qui](#Quanto-cambia-una-logistica-nel-tempo).
