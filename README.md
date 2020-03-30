@@ -6,17 +6,21 @@ Alla data odierna (27/3/2020) **e solo da qualche giorno, al [contrario delle 3 
 In sintesi:
 
 - <font color="green">**Molto probabilmente siamo nei dintorni del "picco".**</font>  
-  [Qui](#Picco-non-picco-e-andamento-della-epidemia) ci sono i grafici e i ragionamenti che suggeriscono questa possibilità come non improbabile.
+  [Qui](#Picco-non-picco-e-andamento-della-epidemia) ci sono i grafici e i ragionamenti che suggeriscono questa possibilità come non improbabile. Se è effettivamente così, serviranno ancora circa ~35-40 giorni per arrivare vicino a zero nuovi contagi.
   Ma è importante capire che non esiste l'Ora X: il "picco" non dura 1 giorno ma si "spalma" su più giorni con fluttuazioni.
+  
   - Per capire cos'è "il picco": [qui](#Quanto-cambia-una-logistica-nel-tempo).
   - Per capire _perché possiamo cautamente dirlo ora_ e perché _molte cose dette con i grafici delle scorse settimane erano sciocche_: [qui](#Perché-NON-usare-una-curva-logistica-in-modo-superficiale)
   - Per capire cos'è una curva logistica e che significato ha: [qui](#Uso-di-una-curva-logistica-come-quando-perché)
   
 - <font color="green">**Il fatto che i decessi siano ancora alti NON significa che l'epidemia sta peggiorando.**</font>
   Per quanto il bollettino giornaliero sia mostruoso, doloroso e terrificante, è importante capire che _i decessi ci raccontano cosa è successo 10-15 giorni fa_ e _NON oggi_.
-  C'è una relazione che si sta dimostrando abbastanza affidabile tra il numero degli ospedalizzati e l'andamento dei decessi, che riflette un correlazione abbastanza ovvia. L'ISS l'ha formalizzata nei suoi bollettini a partire da ~ 10 giorni fa.
-  La mostro [qui](#Andamento-dei-decessi-e-il-death-shift)
-
+  Se siamo nei dintorni del picco rimarranno sopra ai 600 decessi al giorno, oscillando, per ancora ~4-7 giorni, purtroppo, _ma senza salire oltre stabilmente_.
+  
+C'è una relazione che si sta dimostrando abbastanza affidabile tra il numero degli ospedalizzati e l'andamento dei decessi, che riflette un correlazione abbastanza ovvia.
+  L'ISS l'ha formalizzata nei suoi bollettini a partire da ~ 10 giorni fa.
+  La mostro [qui](#Andamento-dei-decessi-e-il-death-shift).
+  
 - <font color="green">**Stanno funzionando le misure di contenimento? Quanto durerà?**</font>
   _work in progress_, la faccenda è delicata
 
