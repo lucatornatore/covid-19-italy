@@ -5,7 +5,7 @@ Alla data odierna (27/3/2020) **e solo da qualche giorno, al [contrario delle 3 
 
 In sintesi:
 
-- <font color="green">**Molto probabilmente abbiamo raggiunto "il picco".**</font>  [Qui](#Picco-non-picco-e-l'-andamento-dell'-epidemia) ci sono i grafici e i ragionamenti che suggeriscono questa possibilità come non improbabile.
+- <font color="green">**Molto probabilmente abbiamo raggiunto "il picco".**</font>  [Qui](#Picco-non-picco-e-andamento-della-epidemia) ci sono i grafici e i ragionamenti che suggeriscono questa possibilità come non improbabile.
   Ma è importante capire che non esiste l'Ora X: il "picco" non dura 1 giorno ma si "spalma" su più giorni con fluttuazioni.
   
   Per capire cos'è "il picco": [qui](#Quanto-cambia-una-logistica-nel-tempo).
@@ -15,7 +15,7 @@ In sintesi:
 - <font color="green">**Il fatto che i decessi siano ancora alti NON significa che l'epidemia sta peggiorando.**</font>
   Per quanto il bollettino giornaliero sia mostruoso, doloroso e terrificante, è importante capire che **i decessi ci raccontano cosa è successo 10-15 giorni fa** e **NON oggi**.
   C'è una relazione che si sta dimostrando abbastanza affidabile tra il numero degli ospedalizzati e l'andamento dei decessi, che riflette un correlazione abbastanza ovvia. L'ISS l'ha formalizzata nei suoi bollettini a partire da ~ 10 giorni fa.
-  La mostro [qui](#L-andamento-dei-decessi-e-il-death-shift)
+  La mostro [qui](#Andamento-dei-decessi-e-il-death-shift)
 
 - <font color="green">**Stanno funzionando le misure di contenimento? Quanto durerà?**</font>
   _work in progress_, la faccenda è delicata
@@ -26,9 +26,7 @@ _Per capire i dati uso una curva logistica; perché e che cos'è è spiegato [qu
 
 [_Nota metodologica generale_](#Nota-metodologica).
 
-
-
-## <font color="red">L'andamento dei decessi e il death-shift</font> 
+## <font color="red">Andamento dei decessi e il death-shift</font> 
 
 I [report settimanali](https://www.iss.it/en/rapporti-covid-19) dell'ISS riportano per i casi di decesso un _delay_ di circa 5 giorni fra l'insorgenza di sintomi gravi e il decesso medesimo. È una relazione che funziona piuttosto bene quando si sovrappone ai dati, e ci dice che l'alto numero dei decessi che osserviamo è assolutamente normale ed atteso perché è una conseguenza dell'alto numero di contagi e di persone ospedalizzate nei 10-15 giorni precedenti.
 
@@ -62,7 +60,7 @@ Il fatto che questa frazione risulti essere il 50% degli ospedalizzati di 5 gior
 
 
 
-## <font color="red">Picco, non picco e l'andamento dell'epidemia</font> 
+## <font color="red">Picco, non picco e andamento della epidemia</font> 
 
 
 L'andamento del contagio nel suo complesso, ovvero la somma di contagi, ospedalizzazioni e decessi, visto in forma grafica è come segue:![](./plots/logistiche.png)
@@ -84,7 +82,7 @@ Tuttavia, fino a circa una settimana fa (~22 marzo) il rumore era decisamente ma
 
 **Se questo è vero**, ciò significa che:
 
-1. i decessi purtroppo rimarranno alti ancora per ~5 giorni ([qui](#L-andamento-dei-decessi-e-il-death-shift) spiego perché)
+1. i decessi purtroppo rimarranno alti ancora per ~5 giorni ([qui](#Andamento-dei-decessi-e-il-death-shift) spiego perché)
 2. la necessità di nuove ospedalizzazione potrebbe iniziare a diminuire a breve
 3. la saturazione della curva dei contagi, cioè il momento in cui NON si avranno nuovi contagi dovrebbe richiedere circa 40 giorni ancora
 4. per pensar di essere ragionevolmente fuori dell'epidemia a quel punto bisognerà attendere ancora 2 periodi massimi di incubazione, ovvero $\sim 30\; (2\times 14)$ giorni.
@@ -121,7 +119,7 @@ Come si vede, praticamente tutte le regioni stanno abbandonano una crescita espo
 Questo grafico mostra le ospedalizzazioni, ma solo nelle regioni "peggiori" (dal punto di vista dei numero di decessi):
 ![](./plots/worst_regions_5d_cases.png)
 
-e quest'ultimo grafico mostra invece i decessi ([ricordiamo](#L-andamento-dei-decessi-e-il-death-shift) che i decessi "guardano" nel passato di ~5 giorni) nelle stesse regioni ![](./plots/worst_regions_5d_deaths.png)
+e quest'ultimo grafico mostra invece i decessi ([ricordiamo](#Andamento-dei-decessi-e-il-death-shift) che i decessi "guardano" nel passato di ~5 giorni) nelle stesse regioni ![](./plots/worst_regions_5d_deaths.png)
 
 I commenti sono gli stessi che nel caso precedente. Tutte le regioni peggiori mostrano incoraggianti segno di costante miglioramento, e quindi questi ultimi grafici sono rassicuranti sul fatto che non ci saranno altre "esplosioni" inattese
 
@@ -151,7 +149,7 @@ Capire quale sia questo numero non è una questione semplice e al momento può e
 2. Il numero delle persone asintomatiche tra i contagiati rilevati è, per i dati disponibili, <img align="right" src="./plots/asintomatici.png" style="zoom:33%;" /> stabile intorno al 6% (la figura qui a fianco riporta i dati del rapporto ISS del 30/3/2020).
 
    Quanto siano in effetti i contagiati asintomatici sul lungo periodo è ancora difficile da stimare a quanto pare:  [il rapporto ECDC](https://www.ecdc.europa.eu/en/publications-data/rapid-risk-assessment-novel-coronavirus-disease-2019-covid-19-pandemic-increased) del 12 marzo 2020 stima che la percentuale di contagiati che rimangono asintomatici sul lungo periodo è molto bassa, anche intorno al ~1-3%.
-   Tuttavia, a [quanto pare](#[https://www.scienzainrete.it/articolo/facciamo-tutta-italia-come-vo%E2%80%99-e-corea-del-sud/sergio-romagnani/2020-03-16](https://www.scienzainrete.it/articolo/facciamo-tutta-italia-come-vo'-e-corea-del-sud/sergio-romagnani/2020-03-16)) il ~%75% dei contagiati di Vo' risultava, almeno sul breve periodo asintomatico. Se prendessimo questo dato come rappresentativo, allora vorrebbe dire che moltissimi asintomatici non sono stati rilevati e potremmo ricavare da ciò una stima della dimensione della popolazione degli asintomatici reali. Quindi, se supponiamo che gli asintomatici siano il ~50-75% dei contagiati, poiché solo il 6% dei contagiati rilevati è asintomatico allora ciò potrebbe significare che i contagiati reali sono ~1.9-3.8 volte i contagiati rilevati, ovvero tra le **~190mila** e le **~380mila** persone (alla data del 30/3/2020).
+   Tuttavia, a [quanto pare](#https://www.scienzainrete.it/articolo/facciamo-tutta-italia-come-vo'-e-corea-del-sud/sergio-romagnani/2020-03-16)  il ~%75% dei contagiati di Vo' risultava, almeno sul breve periodo asintomatico. Se prendessimo questo dato come rappresentativo, allora vorrebbe dire che moltissimi asintomatici non sono stati rilevati e potremmo ricavare da ciò una stima della dimensione della popolazione degli asintomatici reali. Quindi, se supponiamo che gli asintomatici siano il ~50-75% dei contagiati, poiché solo il 6% dei contagiati rilevati è asintomatico allora ciò potrebbe significare che i contagiati reali sono ~1.9-3.8 volte i contagiati rilevati, ovvero tra le **~190mila** e le **~380mila** persone (alla data del 30/3/2020).
    
 3. Anche la mortalità potrebbe essere usata per riscalare il numero di contagiati rilevati al numero di contagiati reali. Anche questo dato al momento è molto incerto, essendo nell'intervallo ~1-3%, con punte più elevate in alcuni territori. Assumendo ~3%, dovremmo riscalare il numero di contagiati rilevati di circa 3-4 volte.
    Tuttavia, in questo momento la mortalità in Italia sta mostrando un comportamento che non comprendo bene.
@@ -168,7 +166,7 @@ Al contrario, gli **ospedalizzati**, ovvero le persone che devono ricorrere a cu
 Per questo è necessario supporre che gruppi umani abbastanza grandi grandi rispondano in modo omogeneo al virus; ovvero che i cinesi, gli europei, gli americani, gli africani, ma anche gli italiani, gli spagnoli, i tedeschi, ecc. si ammalano gravemente nella stessa quantità relativa, cioè che una stessa frazione della popolazione incorre in sintomi gravi. Ciò al momento sembra essere verificato, come è lecito aspettarsi, e anche i sintomi per questo virus sono molto ben caratterizzati. 
 La frazione di popolazione che ha bisogno di cure ospedaliere oscilla tra il **10%** e il **15%**.
 
-Anche i [**decessi**](#L-andamento-dei-decessi-e-il-death-shift) purtroppo sono un numero ottimale per capire l'andamento della malattia. Forse si tratta del numero più stabile, perché è il più certo - _sempre se il sistema sanitario non è al collasso e tutte le morti vengono correttamente registrate e addebitate alla malattia_.
+Anche i [**decessi**](#Andamento-dei-decessi-e-il-death-shift), purtroppo, sono un buon numero per capire l'andamento della malattia. Forse si tratta del numero più stabile, perché è il più certo - _sempre se il sistema sanitario non è al collasso e tutte le morti vengono correttamente registrate e addebitate alla malattia_.
 Da un punto di vista logico, è lecito aspettarsi che su un numero di malati grande emerga un comportamento coerente del decorso che porta al decesso, ovvero un tempo caratteristico tra l'insorgenza del sintomi e il decesso. Naturalmente, non si tratta di un tempo cronometrico, ma di un percorso che ha una significativa varianza individuale e una dipendenza dalle cure cui i soggetti sono sottoposti.
 
 
