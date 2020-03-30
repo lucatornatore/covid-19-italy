@@ -5,7 +5,7 @@ Alla data odierna (27/3/2020) **e solo da qualche giorno, al [contrario delle 3 
 
 In sintesi:
 
-- <font color="green">**Molto probabilmente abbiamo raggiunto "il picco".**</font>  
+- <font color="green">**Molto probabilmente siamo nei dintorni del "picco".**</font>  
   [Qui](#Picco-non-picco-e-andamento-della-epidemia) ci sono i grafici e i ragionamenti che suggeriscono questa possibilità come non improbabile.
   Ma è importante capire che non esiste l'Ora X: il "picco" non dura 1 giorno ma si "spalma" su più giorni con fluttuazioni.
   - Per capire cos'è "il picco": [qui](#Quanto-cambia-una-logistica-nel-tempo).
